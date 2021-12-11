@@ -109,13 +109,13 @@ li:hover {
     transition: top 0.4s;
 }
 #sled0 {
-    /*position: absolute;
-*/
+    position: absolute;
+
     height: 100vh;
     width: 100vw;
-/*
+
     left: 100vw; /* offset below the screen */
-*/
+
     /*border-radius: 5vw;*/
     background-color: white;
 
