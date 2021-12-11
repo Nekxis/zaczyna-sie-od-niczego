@@ -114,9 +114,11 @@ header {
 }
 
 .column-bar {
-    margin: 0 7vw;
-    height: 20vh;
-    width: 5vw;
+    margin: 3vh 9vw;
+    height: 23vh;
+    width: 8vw;
     background-color: fuchsia;
     display: inline-block;
+    border-radius: 7vw;
+
 }
