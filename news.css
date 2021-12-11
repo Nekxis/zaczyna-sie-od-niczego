@@ -57,14 +57,12 @@ header {
     width: 100vw;
     height: 10vh;
     margin: 0;
-
 }
 .menu {
     list-style: none;
     display: inline-block;
     align-items: center;
     padding: 0;
-
 
 }
 li {
@@ -73,6 +71,13 @@ li {
     height: 10vh;
     width: 32vw;
     margin: auto;
+    cursor: pointer;
+    border-radius: 5vw;
+
+    transition: background-color 0.3s;
+}
+li:hover {
+    background-color: darkgray;
 }
 #menu1 {
     width: 8ex;
