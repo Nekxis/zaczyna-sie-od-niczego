@@ -91,13 +91,29 @@ header {
 #sled {
     position: absolute;
 
-    height: 90vh;
+    height: 120vh;
     width: 100vw;
 
     top: 100vh; /* offset below the screen */
 
     border-radius: 10vw;
-    background-color: fuchsia;
+    background-color: lightgrey;
 
     transition: top 0.4s;
+}
+
+#column-integrate {
+    background-color: white;
+    margin-top: 5vh;
+    height: 100vh;
+}
+#column-box {
+    flex: 1;
+    justify-content: center;
+}
+
+.column-bar {
+    height: 20hv;
+    background-color: fuchsia;
+    display: inline-block;
 }
