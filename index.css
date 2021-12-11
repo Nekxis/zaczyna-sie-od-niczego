@@ -20,17 +20,28 @@ header {
 #scan {
     display: flex;
     align-content: center;
-    width: 140vw;
+    width: 100vw;
+    height: 83vh;
     position: fixed;
 }
 #scope {
-    margin: 32vh 0 0 28vw;
+    margin: 32vh 30vw;
+
     display: flex;
-    align-content: center;
+
     position: fixed;
-    width: 20vw;
-    height: 20vh;
+    align-content: center;
+    text-align: center;
+
+    width: 25vw;
 }
+#scope1 {
+    width: 40vw;
+    margin: 0 30px 0 0;
+    align-content: center;
+    display: block;
+}
+
 #bottombar {
     background-color: #eee;
     width: 100vw;
