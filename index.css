@@ -1,5 +1,14 @@
+/* OFFSET
+    position: absolute;
+    top: Y px;
+    left: X px;
+ */
+
 * {
     margin: 0;
+}
+html {
+    overflow: hidden;
 }
 header {
     background-color: #24791c;
@@ -23,6 +32,7 @@ header {
     width: 100vw;
     height: 83vh;
     position: fixed;
+    border-radius: 10vw;
 }
 #scope {
     margin: 32vh 30vw;
@@ -77,4 +87,17 @@ header {
     width: 8ex;
     height: 8ex;
     margin-right: auto;
+}
+#sled {
+    position: absolute;
+
+    height: 90vh;
+    width: 100vw;
+
+    top: 100vh; /* offset below the screen */
+
+    border-radius: 10vw;
+    background-color: fuchsia;
+
+    transition: top 0.4s;
 }
