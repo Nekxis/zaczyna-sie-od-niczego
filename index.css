@@ -110,10 +110,13 @@ header {
 #column-box {
     flex: 1;
     justify-content: center;
+    text-align: center;
 }
 
 .column-bar {
-    height: 20hv;
+    margin: 0 7vw;
+    height: 20vh;
+    width: 5vw;
     background-color: fuchsia;
     display: inline-block;
 }
