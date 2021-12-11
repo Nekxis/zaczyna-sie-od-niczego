@@ -65,12 +65,19 @@ header {
     padding: 0;
 
 }
- li {
-     display: inline-flex;
-     align-items: center;
-     height: 10vh;
-     width: 32vw;
-     margin: auto;
+li {
+    display: inline-flex;
+    align-items: center;
+    height: 10vh;
+    width: 32vw;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5vw;
+
+    transition: background-color 0.3s;
+}
+li:hover {
+    background-color: darkgray;
 }
 #menu1 {
     width: 8ex;
@@ -101,6 +108,19 @@ header {
 
     transition: top 0.4s;
 }
+#sled0 {
+    /*position: absolute;
+*/
+    height: 100vh;
+    width: 100vw;
+/*
+    left: 100vw; /* offset below the screen */
+*/
+    /*border-radius: 5vw;*/
+    background-color: white;
+
+    transition: left 0.4s;
+}
 
 #column-integrate {
     background-color: white;
@@ -120,5 +140,13 @@ header {
     background-color: fuchsia;
     display: inline-block;
     border-radius: 7vw;
+
+}
+
+#bottombar {
+    background-color: #eee;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
 
 }
